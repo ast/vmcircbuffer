@@ -1,0 +1,9 @@
+[package]
+name = "vmcircbuffer"
+version = "0.1.0"
+authors = ["Albin Stigo <albin.stigo@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+buffer-sys = { path = "../buffer-sys" }
+num-complex = "0.2.3"
